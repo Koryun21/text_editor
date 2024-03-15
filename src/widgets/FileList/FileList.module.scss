@@ -1,0 +1,39 @@
+.wrapper {
+  height: 50px;
+  border-bottom: 1px solid #3a3b40;
+  display: flex;
+  align-items: end;
+  padding: 0 10px;
+  gap: 5px;
+  width: 100%;
+  overflow: auto;
+}
+
+.fileTab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3a3b40;
+  padding: 5px 10px;
+  min-width: 120px;
+  max-width: 200px;
+  color: white;
+  user-select: none;
+
+  border-radius: 10px 10px 0 0;
+
+  & > p {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  & > span {
+    cursor: pointer;
+  }
+}
+
+.active {
+  background-color: #948f8f;
+}

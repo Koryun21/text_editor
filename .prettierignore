@@ -1,0 +1,12 @@
+node_modules
+dist
+www/assets/**/*
+lib/
+.env
+*:Zone.Identifier
+.idea/
+*.code-workspace
+.vscode/
+scripts/tmp/*
+k8s
+src/client/submodules

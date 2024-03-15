@@ -1,0 +1,22 @@
+.wrapper {
+  padding: 5px;
+  width: 100%;
+  min-width: min-content;
+  flex: 1;
+  position: relative;
+}
+
+.itemWrapper{
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+  padding: 5px;
+  position: relative;
+
+  user-select: none;
+  cursor: pointer;
+}
+
+.selectedItem{
+  background-color: #43454a;
+}
